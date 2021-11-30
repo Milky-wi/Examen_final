@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nuestros Destinos</title>
+<font color="#935B7A" size="6" face="Edwardian Script ITC">
+<h1 align="center">Nuestros Destinos</h1><br>
+</font>
+</head>
+<body bgcolor="#CDCDCD">
+
+	<style type="text/css">
+	body{
+  background-color: lightgrey;
+  font-family: sans-serif;
+}
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+	</style>
+
+<div class="container">
+  
+  <ul class="slider">
+    <li id="slide1">
+      <img src="Sudafrica-Durban.jpg"/>
+    </li>
+    <li id="slide2">
+      <img src="Túnez-Cartago.jpg"/>
+    </li>
+    <li id="slide3">
+	<img src="Marruecos-Plaza de Yamaa el Fna.jpg"/>
+    </li>
+  </ul>
+  
+  <ul class="menu">
+    <li>
+      <a href="#slide1">1</a>
+    </li>
+    <li>
+      <a href="#slide2">2</a>
+    </li>
+     <li>
+      <a href="#slide3">3</a>
+    </li>
+  </ul>
+  
+</div>
+
+<br><br><font color="#636265" face="Century">
+<h2>Viajes con rumbo a África</h2>
+</font>
+
+<font color="#636265" face="Baskerville Old Face">
+
+<br><h3>Sudáfrica</h3>
+<img src="Sudafrica-Parque Kruger.jpg" width="370" height="240" border="2" align="right" vspace="10" hspace="20" Alt="Sudafrica-Parque Kruger">
+<img src="Sudafrica-Ciudad del Cabo.jpg" width="370" height="240" border="2" align="right" vspace="10" hspace="20" Alt="Sudafrica-Ciudad del Cabo">
+
+<br><p align="justify">Es un país que sí te despertará emociones, unos paisajes como ninguno, la naturaleza en su máxima expresión y ciudades entre montañas y bahías. Es un país que puedes visitar durante cualquier época del año, por su ubicación logra un equilibrio de buenas temperaturas. Podrás moverte en transporte público, trenes, alquilar un auto o incluso usar Uber.<br>
+Las ciudades que más recomendamos visitar son Ciudad del Cabo, Durban y Johanesburgo. Te recomendamos informarte de las zonas en que puedes desplazarte con seguridad y seguir las reglas básicas para no tener ningún contratiempo. Si quieres ver los animales salvajes lo más cerca posible te recomendamos los safaris en los parques naciones, como el parque Kruger en el que podrás hacer tu safari y ver de primera mano elefantes, leones, jirafas, hipopótamos, hienas, cebras, entre otros.
+</p>
+
+
+<br><br><br><h3>Túnez</h3>
+<img src="Túnez-Lago Salado.jpg" width="380" height="240" border="2" align="left" vspace="10" hspace="20" Alt="Túnez-Lago Salado">
+<img src="Túnez-Sidi Bou Said.jpg" width="370" height="240" border="2" align="left" vspace="10" hspace="20" Alt="Túnez-Sidi Bou Said">
+
+<p align="justify">Otro país que tal vez no esté en la mira de los más turísticos pero que te sorprenderá de forma muy positiva, conocer nuevas culturas y sitios enigmáticos es un lujo que te puedes dar antes de los 30, ya que las dudas se transforman en experiencias y Túnez es un lugar para vivirlas.<br>
+No podrás decir que fuiste a Túnez si no pasaste por Cartago, esta antigua ciudad romana centro de su imperio, allí sus ruinas son tesoros y tienen mucho para mostrar a sus visitantes. Sidi Bou Said es de las ciudades que más atrae a los turistas, se puede contemplar el Golfo de Túnez y sus casitas blancas siempre son referente de buenas fotografías. Recorrerte el desierto es uno de los planes favoritos de los turistas, no te lo vayas a perder. O visitar el escenario de famosas películas en Mos Espa, visitar el desierto de sal de Chott el Jerid, el mercado de camellos de Tozeur o La Casa de Africa en Thysdrus. Tal vez con esto te animes no solo a ir a Túnez sino a pasar más tiempo del que pensabas.
+</p>
+
+
+<br><br><br><br><h3>Marruecos</h3>
+<img src="Marruecos-Fez.jpg" width="380" height="290" border="2" align="right" vspace="10" hspace="20" Alt="Marruecos-Fez">
+<img src="Marruecos-Ben Youssef.jpg" width="380" height="290" border="2" align="right" vspace="10" hspace="20" Alt="Marruecos-Ben Youssef">
+
+<br><p align="justify">Este país cargado de colores, olores y sabores te hará vibrar desde que tu llegada. No le temas a probar su exótica cocina y piérdete entre los mercados y callecitas que te permitirán explorar de primera mano la cultura marroquí. Puede empezar por recorrer las medinas y mezclarte entre los locales, tomarte un buen té que es la bebida por excelencia en Marruecos.<br>
+Puedes aprender un poco sobre espiritualidad en las madrazas, que son lugares de enseñanza religiosa a las que atienden personas de todo el mundo, la más famosa es Ben Youssef que queda en Marrakech. Y hablando de esta ciudad que viene siendo la más importante del país no dejes de visitar los monumentos considerados patrimonio de la humanidad, también la Plaza de Yamaa el Fna, Jardin Majorelle, el Palacio de la Bahía, por nombrar algunos. Las otras ciudades que te recomendamos son Mequinez, Fez, Rabat y Casablanca. No te quedes sin pasar al menos una noche en el desierto del Sahara, ya con esto valdrá la pena el costo del viaje, es una experiencia alucinante.
+</p>
+
+<br><br><br>
+<table align="center" width="15%" CELLPADDING="1" CELLSPACING="1">
+<tr>
+	<td align="center" width="10" height="10"><a href="index.html"><img src="inicio.png" width="60" height="50" Alt="icono de inicio"></a></td>
+	<td align="center" width="10" height="10"><a href="Nuestros Destinos.html"><img src="destinos.png" width="60" height="50" Alt="icono de inicio"></a></td>
+</tr>
+</table>
+
+</font>
+</body>
+</html>
